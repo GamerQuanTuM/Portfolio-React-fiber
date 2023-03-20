@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^static/js/.*\.js$ - [E=NODE_ENV:production]
+Header set Content-Type "application/javascript" env=REDIRECT_NODE_ENV
