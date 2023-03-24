@@ -25,10 +25,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import alsol from "./company/alsol.png";
+import devsnest from "./company/devsnest.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Amazon from "./Project Screenshots/Amazon.png";
+import ChatGPT from "./Project Screenshots/ChatGPT.png";
+import Deliveroo from "./Project Screenshots/Deliveroo.png";
+import Medium from "./Project Screenshots/Medium.png";
+import TikTik from "./Project Screenshots/TikTik.png";
+import YouTube from "./Project Screenshots/YouTube.png";
 
 export {
   logo,
@@ -56,7 +61,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  alsol,
+  devsnest,
+  Amazon,
+  ChatGPT,
+  Deliveroo,
+  Medium,
+  TikTik,
+  YouTube,
 };
