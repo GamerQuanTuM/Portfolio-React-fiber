@@ -13,12 +13,6 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   devsnest,
   alsol,
   threejs,
@@ -28,6 +22,9 @@ import {
   Medium,
   TikTik,
   YouTube,
+  suraj,
+  rakesh,
+  amit,
 } from "../assets";
 
 export const navLinks = [
@@ -178,27 +175,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Shuvam proved me wrong.",
+    name: "Rakesh Basu",
+    designation: "Friend",
+    company: "Shuvam",
+    image: rakesh,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "As a junior React Native developer, Shuvam demonstrated a strong work ethic, attention to detail, and a willingness to learn and grow. Their contributions to our team were invaluable and I have no doubt they will continue to excel in their career",
+    name: "Suraj Jeswara",
+    designation: "CEO",
+    company: "Alsol Technology Solution Pvt Ltd",
+    image: suraj,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Highly motivated and diligent student with exceptional academic performance and a positive attitude towards learning",
+    name: "Amit Majumder",
+    designation: "HOD",
+    company: "Future Institute of Technology",
+    image: amit,
   },
 ];
 

@@ -35,6 +35,10 @@ import Medium from "./Project Screenshots/Medium.png";
 import TikTik from "./Project Screenshots/TikTik.png";
 import YouTube from "./Project Screenshots/YouTube.png";
 
+import rakesh from "./person/Rakesh_Basu.png";
+import suraj from "./person/Suraj_Jeswara.png";
+import amit from "./person/Amit_Majumder.png";
+
 export {
   logo,
   backend,
@@ -69,4 +73,7 @@ export {
   Medium,
   TikTik,
   YouTube,
+  rakesh,
+  suraj,
+  amit
 };
