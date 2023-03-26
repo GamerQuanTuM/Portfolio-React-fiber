@@ -183,7 +183,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "As a junior React Native developer, Shuvam demonstrated a strong work ethic, attention to detail, and a willingness to learn and grow. Their contributions to our team were invaluable and I have no doubt they will continue to excel in their career",
+      "As a junior React Native developer, Shuvam demonstrated a strong work ethic, attention to detail, and a willingness to learn and grow. His contribution to our team was invaluable and I have no doubt he will continue to excel in his career",
     name: "Suraj Jeswara",
     designation: "CEO",
     company: "Alsol Technology Solution Pvt Ltd",
