@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Resume from "../assets/resume.pdf";
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -52,9 +53,26 @@ const Contact = () => {
         (err) => {
           setLoading(false);
           console.log(err);
-          alert('Something went wrong.')
+          alert("Something went wrong.");
         }
       );
+  }
+
+  function handleDownloadClick() {
+    fetch(Resume)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "Resume.pdf";
+        a.click();
+         // Clean up after the download
+        URL.revokeObjectURL(url);
+      })
+      .catch((error) => {
+        console.error("Error downloading resume:", error);
+      });
   }
 
   return (
@@ -111,6 +129,14 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
+
+        <button
+          type="submit"
+          className="mt-4 bg-tertiary py-3 px-8 outline-none w-fit text-white shadow-md font-bold shadow-primary rounded-xl"
+          onClick={handleDownloadClick}
+        >
+          Download my Resume
+        </button>
       </motion.div>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
